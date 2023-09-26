@@ -1,35 +1,41 @@
+# Phase-1-toy-problems
+#### *Irene Gitau on 26/09/2023*
 
-# Coding Challenges-Week-1
+## Project Description
+#### Grade Generator
+    Write a function that prompts the user to input student marks. The 
+    input should be between 0 and 100. The output should correspond to the 
+    correct grade, as shown below: 
 
-## Challenge 1: Student Grade Generator
+        A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
-it is going to prompt the user to input student marks. The input should be between 0 and 100. The output should correspond to the correct grade, as shown below:
+#### Speed Detector 
+    Write a program that takes the speed of a car as input e.g. 80. If the speed is less than 70, it should print “OK”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points. > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
-- A: Greater than 79
-- B: 60 to 79
-- C: 49 to 59
-- D: 40 to 49
-- E: Less than 40
+#### Net Salary Calculator
+    Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 
-## Challenge 2: Speed Detector  
-It  is going to take the speed of a car as input (in km/h, e.g., 80)
- If the speed is less than 70, it should print "OK." Otherwise, for every 5 km/h above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
- Additionally, if the driver accumulates more than 12 points, the program should print "License suspended."
- 
-  
+    NB: Use KRA, NHIF, and NSSF values provided in the link below.
 
-## Challenge 3: Net Salary Calculator
-This challenge calculates an individual's Net Salary. It takes the inputs of basic salary and benefits, then calculates the payee (i.e., Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary based on predefined rates and rules.
+    - https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
+    - www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
+     
+    Links to an external site.-  Links to an external site.Links to an external  above.
 
-calculateNetSalary(50000, 10000); 
-calculateNetSalary(70000, 15000); 
+## Setup/Installation Requirements
+    - Clone the repository to any desired folder in your computer
+    - Open the cloned folder with vscode.
+    - Navigate to each individual folder using 'cd folder_name' and run the html file in each folder to open the program in the browser.
+    - You are now good to go!
+   
 
-EXAMPLE 
-irene@irene-HP-EliteBook-8460p:~/Development/code/Code-Challenge-week-1/Net-Salary-Calculator$ node index.js '/home/irene/Development/code/Code-Challenge-week-1/Net-Salary-Calculator/index.js'
-Enter basic salary: 90000'/home/irene/Development/code/Code-Challenge-week-1/Net-Salary-Calculator/salary.js'
-Enter benefits: 4000'/home/irene/Development/code/Code-Challenge-week-1/Net-Salary-Calculator/salary.js'
-Gross Salary: 94000
-Tax (PAYE): 28200
-NHIF Deduction: 2000
-NSSF Deduction: 4700
-Net Salary: 59100
+## Known Bugs
+    No bugs were detected. The program runs perfectly.
+
+## Technologies used
+    - Javascript
+    - Terminal
+
+## Support and contact details
+    - Email:: gitauirene56@gmail.com
+    - Phone:: +254717035023
